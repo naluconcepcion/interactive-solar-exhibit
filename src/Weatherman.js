@@ -56,6 +56,14 @@ class Weatherman extends React.Component {
     });
   }
 
+/*
+CITATIONS;
+
+the below text was modified from our original IP application, which can be located at this link:
+
+https://docs.google.com/document/d/1fBMPxTiExObuNBdrlcCxNa_gXIGGsqps1wPvh4_KH20/edit?usp=sharing
+*/
+
   // render function, called every time state is altered
   render() {
     // this.mathMagic();
