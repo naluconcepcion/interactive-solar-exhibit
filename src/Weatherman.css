@@ -12,12 +12,17 @@
   color: white;
   font-size: 20px;
   background-image: linear-gradient(rgb(121, 121, 121, 0.4), rgb(121, 121, 121, 0.4)), url("assets/clay-inside.JPG");
+  display: inline-block;
 }
-#about, #significance {
+#about, #significance, #gallery {
   padding: 50px;
   background-color: white;
   line-height: 30px;
+  display: inline-block;
+}
+#header {
   width:auto; height: auto;
+  display: inline-block;
 }
 #about h2, #significance h2, #stats h2, #header h1 {
   text-align: center;
@@ -25,7 +30,7 @@
 }
 #about img {
   padding: 40px;
-  width: 200px;
+  width: 100px;
   height: auto;
   border-radius: 50%;
 }
