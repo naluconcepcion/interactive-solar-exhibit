@@ -81,7 +81,7 @@ https://docs.google.com/document/d/1fBMPxTiExObuNBdrlcCxNa_gXIGGsqps1wPvh4_KH20/
             <h5>an independent research project at Phillips Academy</h5>
           </div>
           <div id="about">
-            <h2> about us </h2>
+            <h2> the team </h2>
             <p>
             We are three seniors at Phillips Academy
             performing independent study within the
@@ -114,16 +114,18 @@ https://docs.google.com/document/d/1fBMPxTiExObuNBdrlcCxNa_gXIGGsqps1wPvh4_KH20/
             <h2> some cool stats </h2>
             <div id="card-container">
               <div className="card">
-                <h1> today's current temperature is a whopping </h1>
-                <p>{Math.round(weather.list[0].main.temp - 273.15)} degrees Celcius,
-                 or approximately {Math.round((weather.list[0].main.temp - 273.15) * 9/5 + 32)} degrees Fahrenheit</p>
+                <img src={require("./assets/thermometer.png")} alt="sun"></img>
+                <h3> today's current temperature is </h3>
+                <p>{Math.round(weather.list[0].main.temp - 273.15)}º Celcius ~ {Math.round((weather.list[0].main.temp - 273.15) * 9/5 + 32)}º Fahrenheit</p>
                </div>
                <div className="card">
-                  <h1> today, the bench has generated </h1>
-                  <p>{total_energy + " Watts"}, operating at approximately {efficiency}% efficiency</p>
+                  <img src={require("./assets/lightning.ico")} alt="lightning"></img>
+                  <h3> today, the bench has generated </h3>
+                  <p>{total_energy + " Watts"} at {efficiency}% efficiency</p>
                 </div>
               <div className="card">
-                <h1> which is equal to </h1>
+                <img src={require("./assets/phone.jpg")} alt="phone"></img>
+                <h3> which is equal to </h3>
                 <p>{Math.round(total_energy/5.45)} full iPhone charges</p>
               </div>
             </div>
