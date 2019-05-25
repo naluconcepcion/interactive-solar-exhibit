@@ -1,6 +1,10 @@
+@viewport {  /* attempting to make this mobile friendly */
+  width: device-width ;
+  zoom: 1.0 ;
+}
 #parent-container {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
 }
 #header {
   padding: 270px;
@@ -13,6 +17,7 @@
   padding: 50px;
   background-color: white;
   line-height: 30px;
+  width:auto; height: auto;
 }
 #about h2, #significance h2, #stats h2, #header h1 {
   text-align: center;
@@ -28,9 +33,13 @@
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
+  width: auto;
+  height: auto;
 }
 .profile {
   text-align: center;
+  width: auto;
+  height: auto;
 }
 #card-container {
   display: flex;
@@ -53,4 +62,6 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
+  width: auto;
+  height: auto;
 }
