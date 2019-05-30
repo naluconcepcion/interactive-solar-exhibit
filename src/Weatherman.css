@@ -1,22 +1,21 @@
-@viewport {  /* attempting to make this mobile friendly */
-  width: device-width ;
-  zoom: 1.0 ;
-}
 #parent-container {
   width: auto;
   height: auto;
 }
 #header {
-  padding: 400px;
+  padding: 200px;
+  padding-left: 400px;
+  padding-right: 400px;
   text-align: center;
   color: white;
   font-size: 20px;
   background-image: linear-gradient(rgb(121, 121, 121, 0.4), rgb(121, 121, 121, 0.4)), url("assets/clay-inside.JPG");
-  display: inline-block;
-  width: auto; height: auto;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* display: inline-block; */
 }
-#about, #significance, #gallery {
-  padding: 50px;
+#about, #significance {
+  padding: 20px;
   background-color: white;
   line-height: 30px;
   display: inline-block;
@@ -38,7 +37,6 @@
   border-radius: 50%;
 }
 #gallery {
-  padding: 20px;
   display: flex;
   justify-content: space-evenly;
   width: auto;
@@ -48,6 +46,7 @@
   text-align: center;
   width: auto;
   height: auto;
+  /* padding: 20px; */
 }
 #card-container {
   display: flex;
@@ -69,7 +68,7 @@
   width: 200px;
 }
 footer {
-  background-color:black;
+  background-color: black;
   color: white;
   text-align: center;
   padding: 20px;
