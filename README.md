@@ -1,7 +1,5 @@
-# The Construction Process
+# Solar Exhibit
 
-## Frame of the Bench
+This is a public repository for the code of the interactive solar exhibit designed at Phillips Academy. 
 
-## Solar Panels
-
-How were the electronics mounted?
+Our website can be found [here](https://interactive-solar-exhibit.herokuapp.com). 
